@@ -105,6 +105,9 @@ export default function Layout({ children }: React.PropsWithChildren) {
                           </SideNav.Item>
                         </SideNav.List>
                       </SideNav.Section>
+                      <SideNav.Section>
+                        <SideNav.Item href="/blog">Blog</SideNav.Item>
+                      </SideNav.Section>
                     </SideNav.Root>
 
                     <main className="ContentLayoutMain" id={MAIN_CONTENT_ID}>
